@@ -244,8 +244,8 @@
     </div>      
     <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="bower_components/what-input/what-input.min.js" type="text/javascript"></script>
-    <script async src="bower_components/foundation-sites/dist/foundation.min.js" type="text/javascript"></script>
-    <script async src="bower_components/isotope/dist/isotope.pkgd.min.js" type="text/javascript"></script>
-    <script async src="js/min/app-min.js" type="text/javascript"></script>      
+    <script src="bower_components/foundation-sites/dist/foundation.min.js" type="text/javascript"></script>
+    <script src="bower_components/isotope/dist/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/min/app-min.js" type="text/javascript"></script>      
   </body>
 </html>

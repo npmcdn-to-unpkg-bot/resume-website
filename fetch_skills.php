@@ -15,22 +15,22 @@ $mastrianni_rows = $mastrianni_mysql_connection->query($mastrianni_query);
           <a class="button hvr-shutter-out-vertical" data-filter=".intermediate">INTERMEDIATE</a>
           <a class="button hvr-shutter-out-vertical" data-filter=".advanced">ADVANCED</a>
           <a class="button hvr-shutter-out-vertical current" data-filter="*">VIEW ALL</a>
-        </div>
+        </div>            
     </div>
 </div>
 <div class="row mastrianni_skillset mastrianni-iso-grid">
     <?php
-        $mastrianni_img_url_prepend = "http://mastrianni.me/img/skills/";
+        $mastrianni_img_url_prepend = "http://mastrianni.info/img/skills/";
         $mastrianni_num_rows = $mastrianni_rows->num_rows;
         $mastrianni_counter = 0;
     ?>
     <?php while($mastrianni_array = $mastrianni_rows->fetch_assoc()): ?>
         <?php $mastrianni_counter++; ?>
         <div class="columns small-4 medium-3 large-1 xlarge-1 <?php if($mastrianni_counter == $mastrianni_num_rows):echo "end";endif; ?> mastrianni-iso-grid-item <?php echo $mastrianni_array['skill_level']; ?>">
-            <span data-tooltip class="has-tip top" aria-haspopup="true" data-disable-hover="false" title="<?php echo $mastrianni_array['skill_title']; ?>">
+            <span data-tooltip class="has-tip top m_devicon" aria-haspopup="true" data-disable-hover="false" title="<?php echo $mastrianni_array['skill_title']; ?>">
                 <img src="<?php echo $mastrianni_img_url_prepend.$mastrianni_array['skill_svg_url']; ?>"
                      alt="<?php echo $mastrianni_array['skill_title']; ?>"
-                     class="hvr-grow"
+                     class="hvr-grow m_devicon"
                 >
             </span>
         </div>
