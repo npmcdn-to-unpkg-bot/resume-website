@@ -150,7 +150,7 @@
         <p><i class="icon-calendar color_orange"></i>2009-2013&nbsp;&nbsp;&nbsp;<i class="icon-location color_orange"></i>Annandale, VA&nbsp;&nbsp;&nbsp;<i class="icon-info-circled-1 color_orange"></i>Worked Remotely</p>        
         <p class="nopadding nomargin"><strong>Responsibilities:</strong></p>
         <ul class="no-bullet">
-            <li><i class="color_orange icon-right-open-mini"></i> Re-designed and maintained 5+ websites</li>
+            <li><i class="color_orange icon-right-open-mini"></i> Re-designed and maintained 5 websites</li>
             <li><i class="color_orange icon-right-open-mini"></i> Created and maintained several web apps for the organization</li>
             <li><i class="color_orange icon-right-open-mini"></i> Database Administration</li>
             <li><i class="color_orange icon-right-open-mini"></i> Graphic &amp; Print Design</li>
@@ -176,7 +176,7 @@
             <li><i class="color_orange icon-right-open-mini"></i> Wordpress Development</li>
             <li><i class="color_orange icon-right-open-mini"></i> Search Engine Optimization</li>
             <li><i class="color_orange icon-right-open-mini"></i> Product Photography</li>
-            <li><i class="color_orange icon-right-open-mini"></i> I routinely write HTML, CSS/SASS, PHP, jQuery, and Ajax.</li>
+            <li><i class="color_orange icon-right-open-mini"></i> I routinely write HTML, CSS/SASS, PHP, jQuery, SQL, and Ajax.</li>
         </ul>
         <!-- Close button -->
         <button class="close-button" data-close aria-label="Close reveal" type="button">
